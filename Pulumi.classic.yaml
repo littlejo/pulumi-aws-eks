@@ -1,0 +1,14 @@
+encryptionsalt: v1:vQt+Pz3s08I=:v1:ycu28xEuPYt9bYMt:6m/6bE1g0S8OHv3QSz7/OFvIeJfoUQ==
+config:
+  aws:defaultTags:
+    tags:
+      managed: pulumi
+  controlPlaneRoleName: "role-eks-controlplane"
+  nodePoolRoleName: "role-eks-nodepool"
+  controlPlaneSecurityGroupName: "sgr-eks-controlplane"
+  nodePoolSecurityGroupName: "sgr-eks-nodepool"
+  controlPlaneName: "eks-demo"
+  nodePoolName: "eks-demo"
+  azs:
+    - us-east-1a
+    - us-east-1b
